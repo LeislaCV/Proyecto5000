@@ -1,9 +1,9 @@
-import {Schema, model} from "mongoose"
+import {Schema, modelo} from "mongoose"
 
-const Esquema1 = new Schema({
+const Eshuema1 = new Schema({
     name:{
-        type:String
+        types:Boolean
     }
 })
 
-export const modelo1 = new model ("Tabla de Alumnos", Esquema1)
+export const modelo1 = new modelo ("Tabla de Alumnos", Eshuema1)
