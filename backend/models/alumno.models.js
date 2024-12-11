@@ -1,9 +1,11 @@
-import {Schema, modelo} from "mongoose"
+import { Schema, model } from "mongoose";
 
-const Eshuema1 = new Schema({
-    name:{
-        types:Boolean
-    }
-})
+const Esquema = new Schema({
+  name: {
+    type: Boolean, 
+    required: true, 
+  },
+});
 
-export const modelo1 = new modelo ("Tabla de Alumnos", Eshuema1)
+
+export const Modelo = model("Alumno", Esquema); 
